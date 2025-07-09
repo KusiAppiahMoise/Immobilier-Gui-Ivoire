@@ -6,9 +6,9 @@ use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
 //Load Composer's autoloader
-require 'C:/xampp/htdocs/site/bat/vendor/phpmailer/phpmailer/src/Exception.php';
-require 'C:/xampp/htdocs/site/bat/vendor/phpmailer/phpmailer/src/PHPMailer.php';
-require 'C:/xampp/htdocs/site/bat/vendor/phpmailer/phpmailer/src/SMTP.php';
+require '/bat/vendor/phpmailer/phpmailer/src/Exception.php';
+require '/bat/vendor/phpmailer/phpmailer/src/PHPMailer.php';
+require '/bat/vendor/phpmailer/phpmailer/src/SMTP.php';
 
 //Create an instance; passing `true` enables exceptions
 if(isset($_POST['envoyer'])){
