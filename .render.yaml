@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: Immobilier-Guy-Ivoire
-    env: docker
-    dockerfilePath: ./Dockerfile
-    plan: free
-    
-The base image php:8.2.20-apache contains known vulnerabilities. Consider switching to php:8.2.20-apache-slim for production use.
